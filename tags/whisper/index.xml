@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> whisper on Fatos Halimi</title>
+    <link>https://fatoshalimi.com/tags/whisper/</link>
+    <description>Recent content in  whisper on Fatos Halimi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-AT</language>
+    <lastBuildDate>Wed, 28 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fatoshalimi.com/tags/whisper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kostenloses Speech-To-Text AI Tool für Transkribieren mit Google Colab</title>
+      <link>https://fatoshalimi.com/blog/whisper_google_colab/</link>
+      <pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://fatoshalimi.com/blog/whisper_google_colab/</guid>
+      <description>Whisper ist ein System zur automatischen Spracherkennung ASR) von OpenAI, dass in 680000 Stunden an überwachten Daten aus dem Internet trainiert und kostenlos in Github zur Verfügung gestellt.
+Warum ist das so interessant? Nun hat man eine kostenlose Möglichkeit, Sprachaufnahmen direkt transkribieren und in andere Sprachen übersetzen zu lassen.
+In dem Post schauen wir uns mal an, wie man beispielsweise die Aufnahme eines Interviews einfach und kostenlos transkribieren kann. Dazu verwende ich Google Colab und Whisper.</description>
+    </item>
+    
+  </channel>
+</rss>

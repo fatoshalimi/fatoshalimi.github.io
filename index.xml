@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FH on Fatos Halimi</title>
+    <link>https://fatoshalimi.com/</link>
+    <description>Recent content in FH on Fatos Halimi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-AT</language>
+    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://fatoshalimi.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kostenloses Speech-To-Text AI Tool für Transkribieren mit Google Colab</title>
+      <link>https://fatoshalimi.com/blog/whisper_google_colab/</link>
+      <pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://fatoshalimi.com/blog/whisper_google_colab/</guid>
+      <description>Whisper ist ein System zur automatischen Spracherkennung ASR) von OpenAI, dass in 680000 Stunden an überwachten Daten aus dem Internet trainiert und kostenlos in Github zur Verfügung gestellt.
+Warum ist das so interessant? Nun hat man eine kostenlose Möglichkeit, Sprachaufnahmen direkt transkribieren und in andere Sprachen übersetzen zu lassen.
+In dem Post schauen wir uns mal an, wie man beispielsweise die Aufnahme eines Interviews einfach und kostenlos transkribieren kann. Dazu verwende ich Google Colab und Whisper.</description>
+    </item>
+    
+    <item>
+      <title>Digitales Führen</title>
+      <link>https://fatoshalimi.com/blog/digitales-fuhren/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fatoshalimi.com/blog/digitales-fuhren/</guid>
+      <description>Nach über einem Jahr digitaler Meetings und Lehrveranstaltungen hat man oft das Gefühl, dass diese Meetings psychisch anspruchsvoller als face-to-face Meetings. Um &amp;ldquo;Zoom Fatigue&amp;rdquo; so gut wie es geht zu vermeiden, ist der Skill der digitalen Führung umso wichtiger geworden. Doch wie geht digitales Führen und was kann man verbessern?
+🤔 Ehrliches Interesse zeigen Kümmere dich um deine Mitarbeiter und stelle ihnen erstgemeinte Fragen, indem du dir immer wieder Details erklären lässt und gib ihnen deine volle Aufmerksamkeit.</description>
+    </item>
+    
+    <item>
+      <title>5 Tipps für bessere Meetings</title>
+      <link>https://fatoshalimi.com/blog/5-tipps-fuer-bessere-meetings/</link>
+      <pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fatoshalimi.com/blog/5-tipps-fuer-bessere-meetings/</guid>
+      <description>Meetings. Ein Wort, das nicht gerade für Begeisterung sorgt. Doch warum ist das so? Wie kann man dennoch das Beste aus Meetings herausholen? Auch wenn Meetings nun auch virtuell stattfinden, sind sie auch in den nächsten Jahrzehnten in einer professionellen Welt wichtig.
+Nachdem ich viele Meetings selbst organisiert habe und auch bei vielen teilgenommen habe, muss ich ehrlich sagen, dass nicht viele davon wichtig waren. Im Gegenteil waren sie meist ineffizient und manchmal auch unnötig.</description>
+    </item>
+    
+    <item>
+      <title>Impressum &amp; Datenschutz</title>
+      <link>https://fatoshalimi.com/impressum/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fatoshalimi.com/impressum/</guid>
+      <description>Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63 Gewerbeordnung und Offenlegungspflicht laut §25 Mediengesetz.
+Fatos Halimi
+7000 Eisenstadt, Österreich
+E-Mail: &amp;#99;&amp;#111;&amp;#110;&amp;#116;&amp;#97;&amp;#99;&amp;#116;&amp;#64;&amp;#102;&amp;#97;&amp;#116;&amp;#111;&amp;#115;&amp;#104;&amp;#97;&amp;#108;&amp;#105;&amp;#109;&amp;#105;&amp;#46;&amp;#99;&amp;#111;&amp;#109; Bildernachweis Die Bilder, Fotos und Grafiken auf dieser Webseite sind urheberrechtlich geschützt.
+Die Bilderrechte liegen bei den folgenden Fotografen und Unternehmen:
+Fotograf Mustermann Urheberrechtshinweis Alle Inhalte dieser Webseite (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht. Bitte fragen Sie uns bevor Sie die Inhalte dieser Website verbreiten, vervielfältigen oder verwerten wie zum Beispiel auf anderen Websites erneut veröffentlichen.</description>
+    </item>
+    
+    <item>
+      <title>Über mich</title>
+      <link>https://fatoshalimi.com/about/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fatoshalimi.com/about/</guid>
+      <description>Woran ich gerade arbeite 👨‍💻 Arbeite als Product Owner in Österreich und habe meine Karriere 2015 als Software Engineer gestartet. 👨🏼‍🎓 Habe von der FH Technikum Wien einen Bachelor of Science in Wirtschaftsinformatik &amp;amp; einen Ingenieur Titel von der WKO. 📚 Bin dabei meinen Master of Science in Wirtschaftsinformatik an der FH Technikum Wien zu machen. ✍️ Auf meiner Webseite schreibe ich Artikel über Themen in der IT, Produktivität, Persönliche Finanzen und allgemeine Lebensratschläge, die ich im Laufe der Jahre als hilfreich empfunden habe.</description>
+    </item>
+    
+    <item>
+      <title>3 Gründe für mangelhafte Requirements</title>
+      <link>https://fatoshalimi.com/blog/3-gruende-fuer-mangelhafte-requirements/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fatoshalimi.com/blog/3-gruende-fuer-mangelhafte-requirements/</guid>
+      <description>Requirements Engineering ist ein Prozess, dessen Ziel es ist, die Wünsche des Kunden bzw. Stakeholder zu erkennen und diese in eine passende Sprache zu formulieren, die von allen Stakeholdern verstanden wird. Im Zuge dieses Prozesses können verschiedene Faktoren ausschlaggebend dafür sein, dass es zu mangelhafte Requirements kommt.
+Ein Stakeholder ist gemäß dem IREB Glossary “eine Person oder Organisation, die Einfluss auf die Anforderungen eines Systems hat oder die von diesem System betroffen ist.</description>
+    </item>
+    
+  </channel>
+</rss>
