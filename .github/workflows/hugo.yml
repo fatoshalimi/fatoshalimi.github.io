@@ -39,9 +39,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
-        run: |
-          npm install  # Install dependencies including PostCSS
-          npx postcss -v  # Verify PostCSS is installed
+        run: npm install  # Install dependencies including PostCSS
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
