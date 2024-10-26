@@ -1,0 +1,9 @@
+<picture>
+    <source type="image/webp" srcset="{{ substr .Destination 0 -4 | safeURL }}.webp">
+    <source type="image/jpeg" srcset="{{ .Destination | safeURL }}">
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+</picture>
+<!-- 
+for i in *.jpg; do cwebp -q 90 $i -o "${i%.*}.webp"; done
+for i in *.png; do cwebp -q 90 $i -o "${i%.*}.webp"; done
+-->

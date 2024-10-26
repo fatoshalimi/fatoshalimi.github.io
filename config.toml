@@ -1,0 +1,47 @@
+baseurl = "https://fatoshalimi.com"
+languageCode = "de-AT"
+theme = ["hugo-cloak-email", "blist"]
+title = "Fatos Halimi"
+
+[build]
+    writeStats = true
+
+[context.production.environment]
+    HUGO_ENV = "production"
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[markup.highlight]
+    style = "dracula"
+
+[[menu.main]]
+    name = "Über mich"
+    url = "/about"
+    weight = 1
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[params]
+    ascentColor = "bg-gray-50"
+    darkModeToggle = true
+    description = ""
+    enableSearch = true
+    favicon = "favicon.png"
+    name = "Fatos Halimi"
+    impressum = "/impressum"
+
+[params.homepage]
+    description = ""
+    photo = "/memoji.png"
+    title = "Hi! Ich bin Fatos"
+
+[params.homepage.social]
+    github = ""
+    instagram = ""
+    linkedin = "https://www.linkedin.com/in/fatos-halimi/"
+    medium = ""
+    reddit = ""
+    twitter = "https://twitter.com/fatos_halimi"
+    youtube = ""
