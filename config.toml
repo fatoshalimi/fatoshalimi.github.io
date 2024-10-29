@@ -1,47 +1,233 @@
 baseurl = "https://fatoshalimi.com"
-languageCode = "de-AT"
-theme = ["hugo-cloak-email", "blist"]
+metaDataFormat = "yaml"
 title = "Fatos Halimi"
+theme = ["hugo-cloak-email","blist"]
 
-[build]
-    writeStats = true
-
-[context.production.environment]
-    HUGO_ENV = "production"
-
-[markup.goldmark.renderer]
-    unsafe = true
-
-[markup.highlight]
-    style = "dracula"
-
-[[menu.main]]
-    name = "Über mich"
-    url = "/about"
+DefaultContentLanguage = "de"
+DefaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = "content/en" #English
     weight = 1
+    languageName = "EN"
+    [languages.en.params]
+      introTitle = "Hi, I am Fatos Halimi!"
+      #introSubtitle = "I am Fatos Halimi, Product Owner with a background in software development and business informatics."
+      introSubtitle = "<p>As a <strong>Product Owner</strong>, I combine my <strong>passion for technology</strong> with my background in <strong>Software Engineering</strong> and <strong>Business Informatics</strong>. With extensive experience in <strong>agile project management</strong>, I work closely with product managers, designers, developers, and other stakeholders to create <strong>innovative solutions</strong> that truly make a difference.</p><br><p>I focus on <strong>leading agile teams</strong>, prioritizing product backlogs based on business value, and delivering high-quality MVPs. I value <strong>collaboration</strong>, effective <strong>problem-solving</strong>, and <strong>data-driven decisions</strong> to turn complex challenges into <strong>user-friendly products</strong>. With a <strong>master's degree</strong> in Business Informatics and specializations in <strong>IT Innovation Management</strong>, <strong>Big Data</strong>, and <strong>Machine Learning</strong>, I'm constantly learning and working on new ideas.</p><br><p>Outside of work, I'm interested in <strong>productivity</strong>, <strong>personal finance</strong>, and the latest <strong>IT trends</strong>.</p><br><p>📫 <strong>If you have any questions or are interested in collaboration, I look forward to hearing from you!</strong></p>"
+      introPhoto = "/memoji.png"
+      logo = "/favicon.png"
+      impressum = "/en/page/imprint"
 
-[outputs]
-    home = ["HTML", "RSS", "JSON"]
+    [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 3
+
+    #[[languages.en.menu.main]]
+    #    name = "Tags"
+    #    url = "tags"
+    #    weight = 3
+
+    #[[languages.en.menu.main]]
+    #    name = "Top Post"
+    #    url = "/en/blog/emoji-support/"
+    #    weight = 4
+
+  [languages.de]
+    contentDir = "content/de" # Deutsch
+    weight = 2
+    languageName = "DE"
+    title = "Fatos Halimi"
+    [languages.de.params]
+      description = ""
+      introTitle = "Hi, Ich bin Fatos Halimi!"
+      #introSubtitle = "Ich bin Fatos Halimi, Product Owner mit einem Hintergrund in Softwareentwicklung und Wirtschaftsinformatik."
+      introSubtitle = "<p>Als <strong>Product Owner</strong>verbinde ich meine <strong>Leidenschaft für Technologie</strong> mit meinem Hintergrund in <strong>Software Engineering</strong> und <strong>Wirtschaftsinformatik</strong>. Mit viel Erfahrung im <strong>agilen Projektmanagement</strong> arbeite ich eng mit Produktmanagern, Designern, Entwicklern und anderen Stakeholdern zusammen, um <strong>innovative Lösungen</strong> zu schaffen, die wirklich etwas bewirken.</p><br><p>Ich konzentriere mich darauf, <strong>agile Teams zu leiten</strong>, Produkt-Backlogs nach Geschäftswert zu priorisieren und qualitativ hochwertige MVPs zu liefern. Mir sind <strong>Zusammenarbeit</strong>, effektive <strong>Problemlösung</strong> und <strong>datenbasierte Entscheidungen</strong> wichtig, um komplexe Herausforderungen in <strong>benutzerfreundliche Produkte</strong> zu verwandeln. Mit einem <strong>Master</strong> in Wirtschaftsinformatik und Spezialisierungen in <strong>IT-Innovationsmanagement</strong>, <strong>Big Data</strong> und <strong>Machine Learning</strong> lerne ich ständig dazu und arbeite an neuen Ideen.</p><br><p>Neben der Arbeit interessiere ich mich für <strong>Produktivität</strong>, <strong>persönliche Finanzen</strong> und die neuesten <strong>IT-Trends</strong>.</p><br><p>📫 <strong>Wenn du Fragen hast oder an einer Zusammenarbeit interessiert bist, freue ich mich, von dir zu hören!</strong></p>"
+      introPhoto = "/memoji.png"
+      logo = "/favicon.png"
+      impressum = "/de/page/impressum"
+
+    [[languages.de.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[languages.de.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 2
+
+    [[languages.de.menu.main]]
+        name = "Über mich"
+        url = "page/about/"
+        weight = 1
+
+    #[[languages.de.menu.main]]
+    #    name = "Tags"
+    #    url = "tags"
+    #    weight = 3
 
 [params]
-    ascentColor = "bg-gray-50"
-    darkModeToggle = true
-    description = ""
-    enableSearch = true
-    favicon = "favicon.png"
-    name = "Fatos Halimi"
-    impressum = "/impressum"
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+  
+  # Enable search in header
+  enableSearch = true
 
-[params.homepage]
-    description = ""
-    photo = "/memoji.png"
-    title = "Hi! Ich bin Fatos"
+  # Option to customize the search parameters of a page
+  # Below are the supported options; Note that including entire content
+  # may slowdown the loading of search results
+  # Title of page is included by default
+  searchKeys = [
+    "tags",
+    "date",
+    "categories",
+    "summary",
+    "content",
+    "link",
+    "author"
+  ]
+
+  # Custom copyright - optional
+  copyright = "Copyright © 2024 - Fatos Halimi · All rights reserved"
+  favicon = "/favicon.png"
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-gray-50"
+
+  # The page bundle that is shown on the front page
+  #frontBundle = "blog"
+  frontBundle = "page/about/"
+
+  # Used to hide the post metadata such as posted date, reading time and word count
+  # Can be used at site level or page level
+  hideMeta = false
+
+  # To hide "Other languages" option if the post is available in multiple languages
+  # Can be used at site level or page level
+  hideOtherLanguages = false
+
+  # Add support for Table of contents
+  # Can be added to a page level also in markdown frontmatter
+  toc = true
+
+  # Hides the thumbnail in post view
+  # Thumbnails in home and blog pages will still be shown
+  # This setting can also be in page's markdown file
+  hidePageThumbnail = false
+
+# Comments system
+[params.comments]
+  # Supports disqus, giscus and utterances
+  # Check hugo docs for setting up disqus
+  system = ""
+
+  # Options for giscus, exclude hyphens
+  repo = ""
+  repoid = ""
+  category = ""
+  categoryid = ""
+  mapping = ""
+  strict = ""
+  reactionsenabled = ""
+  emitmetadata = ""
+  inputposition = ""
+  theme = ""
+
+  # Options for utterances, exclude hyphens
+  # repo = ""
+  # issueterm = ""
+  # theme = ""
 
 [params.homepage.social]
-    github = ""
-    instagram = ""
-    linkedin = "https://www.linkedin.com/in/fatos-halimi/"
-    medium = ""
-    reddit = ""
-    twitter = "https://twitter.com/fatos_halimi"
-    youtube = ""
+  # Global params common for both languages
+  title = ""
+  description = ""
+
+  #[[params.homepage.social.icons]]
+  #  website = "twitter"
+  #  url = "https://twitter.com/"
+  [[params.homepage.social.icons]]
+    website = "mail"
+    url = "https://www.linkedin.com/in/fatos-halimi/"
+  [[params.homepage.social.icons]]
+    website = "linkedin"
+    url = "https://www.linkedin.com/in/fatos-halimi/"
+  #[[params.homepage.social.icons]]
+  #  website = "xing"
+  #  url = "https://www.xing.com/profile/"
+  #[[params.homepage.social.icons]]
+  #  website = "telegram"
+  #  url = "https://t.me/"
+  [[params.homepage.social.icons]]
+    website = "github"
+    url = "https://github.com/fatoshalimi"
+  #[[params.homepage.social.icons]]
+  #  website = "buymeacoffee"
+  #  url = "https://www.buymeacoffee.com/"
+  #[[params.homepage.social.icons]]
+  #  website = "medium"
+  #  url = "https://medium.com/"
+  #[[params.homepage.social.icons]]
+  #  website = "reddit"
+  #  url = "https://reddit.com/"
+  #[[params.homepage.social.icons]]
+  #  website = "dribbble"
+  #  url = "https://dribbble.com/"
+  #[[params.homepage.social.icons]]
+  #  website = "stackoverflow"
+  #  url = "https://stackoverflow.com/"
+  #[[params.homepage.social.icons]]
+  #  website = "xda"
+  #  url = "https://forum.xda-developers.com/"
+  #[[params.homepage.social.icons]]
+  #  website = "tiktok"
+  #  url = "https://tiktok.com"
+  #[[params.homepage.social.icons]]
+  #  website = "googlescholar"
+  #  url = "https://scholar.google.com/"
+  #[[params.homepage.social.icons]]
+  #  website = "mastodon"
+  #  url = "https://joinmastodon.org"
+  #[[params.homepage.social.icons]]
+  #  website = "youtube"
+  #  url = "https://youtube.com"
+  #[[params.homepage.social.icons]]
+  #  website = "instagram"
+  #  url = "https://instagram.com"
+  #[[params.homepage.social.icons]]
+  #  website = "facebook"
+  #  url = "https://facebook.com"
+  #[[params.homepage.social.icons]]
+  #  website = "behance"
+  #  url = "https://behance.net"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true

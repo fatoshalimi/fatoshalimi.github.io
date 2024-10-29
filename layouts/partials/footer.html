@@ -1,7 +1,7 @@
 <footer class="container p-6 mx-auto flex justify-between items-center">
   <span class="text-sm font-light">
     {{ if (isset .Site.Params "copyright") }}
-    {{ .Site.Params.copyright }}
+    {{ .Site.Params.copyright | safeHTML }}
     {{ else }}
     {{ dateFormat "2006" now }} © {{ .Site.Title }}
     {{ end }}
@@ -14,8 +14,15 @@
     </svg>
   </span>
   <span class="text-sm font-light">
-    <a href="{{ .Site.Params.impressum }}" target="_blank">Impressum & Datenschutz</a>
+    <a href="{{ .Site.Params.impressum }}" target="_blank">
+      {{ if eq .Language.Lang "de" }}
+      Impressum & Datenschutz
+      {{ else }}
+      Imprint & Privacy
+      {{ end }}
+    </a>
   </span>
+
 </footer>
 
 {{ if .Site.Params.enableSearch }}
@@ -23,6 +30,23 @@
 {{ end }}
 
 {{ template "_internal/google_analytics.html" . }}
+
+{{ if ge (len .Site.Languages) 3 }}
+<script>
+  const languageMenuButton = document.querySelector('.language-switcher');
+  const languageDropdown = document.querySelector('.language-dropdown');
+  languageMenuButton.addEventListener('click', (evt) => {
+    evt.preventDefault()
+    if (languageDropdown.classList.contains('hidden')) {
+      languageDropdown.classList.remove('hidden')
+      languageDropdown.classList.add('flex')
+    } else {
+      languageDropdown.classList.add('hidden');
+      languageDropdown.classList.remove('flex');
+    }
+  })
+</script>
+{{ end }}
 
 {{ if .Site.Params.darkModeToggle }}
 <script>
@@ -41,9 +65,27 @@
     darkmode.addEventListener('click', toggleDarkMode);
   }
 
-  const isDark = localStorage.getItem('darkmode');
-  if (isDark && isDark === 'dark') {
+  const darkStorage = localStorage.getItem('darkmode');
+  const isBrowserDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (!darkStorage && isBrowserDark) {
+    document.documentElement.classList.add('dark');
+  }
+
+  if (darkStorage && darkStorage === 'dark') {
     toggleDarkMode();
   }
 </script>
 {{ end }}
+
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if (mobileMenu && mobileMenuButton) {
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>

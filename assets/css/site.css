@@ -1,0 +1,75 @@
+/* Custom Styles */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* General */
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+ 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+ 20% { transform: rotate(-8.0deg) }
+ 30% { transform: rotate(14.0deg) }
+ 40% { transform: rotate(-4.0deg) }
+ 50% { transform: rotate(10.0deg) }
+ 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+100% { transform: rotate( 0.0deg) }
+}
+
+/* Fonts */
+
+/* inter-300 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/inter-v3-latin-300.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/fonts/inter-v3-latin-300.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/inter-v3-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/fonts/inter-v3-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/fonts/inter-v3-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("/fonts/inter-v3-latin-300.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+/* inter-500 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/inter-v3-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/fonts/inter-v3-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/inter-v3-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/fonts/inter-v3-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/fonts/inter-v3-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("/fonts/inter-v3-latin-500.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/inter-v3-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/fonts/inter-v3-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/inter-v3-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/fonts/inter-v3-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/fonts/inter-v3-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("/fonts/inter-v3-latin-700.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}

@@ -1,10 +1,10 @@
 {
-  "name": "fatoshalimi.com",
-  "version": "1.0.0",
-  "description": "My Personal Website",
-  "author": "Fatos Halimi",
+  "name": "blist",
+  "version": "2.1.0",
+  "description": "Blist is a clean and fast blog theme for your Hugo site.",
   "main": "index.js",
-  "repository": "https://github.com/fatoshalimi/fatoshalimi.com",
+  "repository": "https://github.com/apvarun/blist-hugo-theme",
+  "author": "Varun A P",
   "license": "MIT",
   "scripts": {
     "start": "hugo server --disableFastRender",
@@ -13,11 +13,10 @@
     "build": "NODE_ENV=production hugo --gc"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^3.1.3",
-    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.13",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.33",
-    "postcss-cli": "^11.0.0",
+    "postcss-cli": "^11.0.0 ",
     "postcss-import": "^16.0.0",
     "tailwindcss": "^3.4.1"
   },
