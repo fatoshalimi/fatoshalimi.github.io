@@ -1,8 +1,12 @@
-## Free Speech-to-Text AI Tool for Transcription Using Google Colab
-
-**Author**: Fatos Halimi  
-**Date**: 2022-09-28  
-**Tags**: OpenAI, Whisper, Interview Transcription  
++++
+author = "Fatos Halimi"
+categories = []
+date = 2022-09-28T00:00:00Z
+description = ""
+tags = ["openai", " whisper", "Interview Transcription"]
+thumbnail = "/images/hitesh-choudhary-t1paibmtjim-unsplash.jpg"
+title = "Free Speech-to-Text AI Tool for Transcription Using Google Colab"
++++
 
 [Whisper](https://github.com/openai/whisper) is OpenAI’s automatic speech recognition (ASR) tool, trained on 680,000 hours of labeled data from the internet. It’s available for free on [GitHub](https://github.com/openai/whisper), providing an accessible way to transcribe audio and translate it into other languages.
 

@@ -1,8 +1,11 @@
-## 5 Tips for Better Meetings
-
-**Author**: Fatos Halimi  
-**Date**: 2021-08-23  
-**Tags**: Productivity, IT  
+---
+author: Fatos Halimi
+title: 5 Tipps for better Meetings
+date: 2021-08-23
+description: 
+tags: ["Productivity", "IT"]
+thumbnail: /images/campaign-creators-gmsnxqiljp4-unsplash-768x512.jpg
+---
 
 Meetings. The word alone often causes groans. Why is that? How can you make the best of them? While meetings have become increasingly virtual, they remain essential in professional settings.
 

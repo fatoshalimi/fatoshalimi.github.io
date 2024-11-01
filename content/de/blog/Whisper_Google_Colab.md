@@ -3,7 +3,7 @@ author = "Fatos Halimi"
 categories = []
 date = 2022-09-28T00:00:00Z
 description = ""
-tags = ["openai", " whisper", " interview transkribieren"]
+tags = ["openai", " whisper", "interview transkribieren"]
 thumbnail = "/images/hitesh-choudhary-t1paibmtjim-unsplash.jpg"
 title = "Kostenloses Speech-To-Text AI Tool für Transkribieren mit Google Colab"
 

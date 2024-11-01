@@ -6,7 +6,6 @@ description = ""
 tags = ["Produktivität", "Management"]
 thumbnail = "/images/quino-al-dhgflj3ri0q-unsplash.jpg"
 title = "Digitales Führen"
-
 +++
 Nach über einem Jahr digitaler Meetings und Lehrveranstaltungen hat man oft das Gefühl, dass diese Meetings psychisch anspruchsvoller als face-to-face Meetings. Um "Zoom Fatigue" so gut wie es geht zu vermeiden, ist der Skill der digitalen Führung umso wichtiger geworden. Doch wie geht digitales Führen und was kann man verbessern?
 

@@ -1,8 +1,13 @@
-## 3 Reasons for Inadequate Requirements
-
-**Author**: Fatos Halimi  
-**Date**: 2021-03-04  
-**Tags**: Productivity, IT  
+---
+author: Fatos Halimi
+title: 3 Reasons for Inadequate Requirements
+date: 2021-03-04
+description: 
+tags:
+- Productivity
+- IT
+thumbnail: "/images/leon-vbxyfxlgpjm-unsplash.jpg"
+---
 
 Requirements engineering aims to understand client and stakeholder needs and translate them into clear, understandable language. Throughout this process, several factors can lead to inadequate requirements.
 
@@ -49,8 +54,8 @@ Implicit requirements are unstated or undocumented because they seem "obvious." 
 
 Implicit requirements are risky because they are only validated at the final approval stage. The [Kano Model of Customer Satisfaction](https://en.wikipedia.org/wiki/Kano_model) explains the connection between achieving certain product features and customer satisfaction:
 
-![Kano Model](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Kano_Modell_allgemein.svg/1200px-Kano_Modell_allgemein.svg.png)  
-_Source: [Wikipedia Kano Model](https://de.wikipedia.org/wiki/Kano-Modell#/media/Datei:Kano_Modell_allgemein.svg)_
+![Kano Model](https://upload.wikimedia.org/wikipedia/commons/6/68/Kano_model_showing_transition_over_time.png)  
+_Source: [Wikipedia Kano Model](https://en.wikipedia.org/wiki/File:Kano_model_showing_transition_over_time.png)_
 
 - **Basic Factors**: Expected by the user and, if absent, cause dissatisfaction.
 - **Performance Factors**: Contribute to satisfaction or prevent dissatisfaction.

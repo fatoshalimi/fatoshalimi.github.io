@@ -7,7 +7,6 @@ tags:
 - Produktivität
 - IT
 thumbnail: "/images/leon-vbxyfxlgpjm-unsplash.jpg"
-
 ---
 Requirements Engineering ist ein Prozess, dessen Ziel es ist, die Wünsche des Kunden bzw. Stakeholder zu erkennen und diese in eine passende Sprache zu formulieren, die von allen Stakeholdern verstanden wird. Im Zuge dieses Prozesses können verschiedene Faktoren ausschlaggebend dafür sein, dass es zu mangelhafte Requirements kommt.
 
