@@ -26,7 +26,7 @@ Als ersten Schritt brauchen wir ein Google Colab Notebook. Hierzu öffnest du di
 
 Du kannst auch in deiner Google Drive mit einem Rechtsklick > More > Google Colaboratory ein neues Notebook anlegen.
 
-![](/images/Google_Drive_Collab.png)
+![Google Drive Colab Screenshot](/images/Google_Drive_Collab.png)
 
 Das neue Notebook heißt dann Untitled.ipynb.
 
@@ -34,7 +34,7 @@ Das neue Notebook heißt dann Untitled.ipynb.
 
 Als Nächstes sagen wir Google, dass die GPU verwendet werden soll. Um das zu tun, gehen wir unter den Menüreiter Laufzeit > Laufzeittyp ändern und wählen in dem Dropdown Hardwarebeschleuniger des Dialogs den Punkt GPU aus und speichern das Ganze.
 
-![](/images/Google_Collab_Runtime.png)![](/images/Google_Collab_GPU.png)
+![Laufzeit Einstellungen Screenshot](/images/Google_Collab_Runtime.png)![GPU Option wählen](/images/Google_Collab_GPU.png)
 
 ## Whisper installieren
 
@@ -43,7 +43,7 @@ In dem neuen Notebook fügen wir als Code folgendes ein und führen dann mit dem
     !pip install git+https://github.com/openai/whisper.git 
     !sudo apt update && sudo apt install ffmpeg
 
-![](/images/Google_Collab_whisper_install.png)
+![Whisper Installation Screenshot](/images/Google_Collab_whisper_install.png)
 
 Somit installieren wir Whisper im Notebook. (Für weitere Installationshinweise gibt es unter [https://github.com/openai/whisper#setup](https://github.com/openai/whisper#setup) "https://github.com/openai/whisper#setup"))
 
@@ -53,7 +53,7 @@ Das Rufzeichen (!) an Anfang der Zeile fügen wir ein, weil wir ein shell script
 
 Damit wir die Audiodatei transkribieren können, müssen wir sie zuerst in Google Colab hochladen. Dazu könnt ihr sie mit Drag & Drop in die Dateien-Ansicht von Google Collab oder mit dem Upload-Button hochladen.
 
-![](/images/Google_Collab_File_Upload.png)
+![Datei-Upload Screenshot](/images/Google_Collab_File_Upload.png)
 
 ## Transkribieren mit Whisper
 
@@ -63,7 +63,7 @@ Nun fügen wir einen zweiten Code-Block in das Notebook mit dem +Code-Button ein
 
 Damit Magic passiert wieder auf den Play-Button (oder mit CTRL + Enter) ausführen.
 
-![](/images/Google_Collab_whisper.png)
+![Whisper Ausgabe Screenshot](/images/Google_Collab_whisper.png)
 
 In diesem Beispiel habe ich das Model Medium und die Sprache Deutsch als Parameter mitgegeben.
 

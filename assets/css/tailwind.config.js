@@ -9,9 +9,6 @@ module.exports = {
     "hugo.toml",
     "content/**/*.html",
     "assets/js/search.js",
-    "exampleSite/layouts/**/*.html",
-    "exampleSite/config.toml",
-    "exampleSite/content/**/*.html",
   ],
   darkMode: "class",
   theme: {

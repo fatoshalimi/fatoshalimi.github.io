@@ -3,6 +3,7 @@
 ## Deutsch
 
 Dieses Repository enthält den Quellcode der persönlichen Website von Fatos Halimi. Die Seite wird mit [Hugo](https://gohugo.io/) generiert und nutzt die Themes **Blist** und **hugo-cloak-email** als Git-Submodule.
+Beim Klonen sollte `git clone --recurse-submodules` verwendet oder anschließend `git submodule update --init --recursive` ausgeführt werden, damit alle Theme-Dateien vorhanden sind.
 
 ### Inhalt & Struktur
 
@@ -48,6 +49,7 @@ Die verwendeten Themes unterliegen der MIT-Lizenz (siehe jeweilige Repositories)
 ## English
 
 This repository contains the source code of Fatos Halimi's personal website. The site is generated with [Hugo](https://gohugo.io/) and uses the themes **Blist** and **hugo-cloak-email** as Git submodules.
+When cloning, use `git clone --recurse-submodules` or run `git submodule update --init --recursive` afterward to ensure the theme files are available.
 
 ### Content & Structure
 
