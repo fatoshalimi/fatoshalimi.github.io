@@ -14,7 +14,7 @@ Ein Stakeholder ist gemäß dem [IREB Glossary](https://www.ireb.org/de/cpre/cp
 
 Immer wenn Anforderungen erfasst werden, kann es zu Missverständnissen kommen. Die eine Partei beschreibt etwas und die andere Partei versteht etwas gänzlich anderes.
 
-![](/images/image-axd.png)
+![Erwartung vs. Realität Cartoon](/images/image-axd.png)
 
 Quelle: [http://www.projectcartoon.com/](http://www.projectcartoon.com/ "http://www.projectcartoon.com/")
 
@@ -50,7 +50,7 @@ Die Wirkung des Requirements Engineering ist indirekt. Wenn sie nicht vorhanden 
 
 Die folgende Grafik veranschaulicht die Zusammenhänge der Fehlerkosten, Requirements Engineering Kosten und der Gesamtkosten.
 
-![](/images/frame-1-4.png)
+![Kosten-Grafik](/images/frame-1-4.png)
 
 Zusammenhänge zwischen Kosten im Requirements Engineering, Kosten für aufgetretene Fehler und die Gesamtkosten
 
@@ -68,7 +68,7 @@ Implizite Anforderungen sind ein hohes Risiko, da diese erst sehr spät, nämlic
 
 Das [Kano-Modell der Kundenzufriedenheit](https://de.wikipedia.org/wiki/Kano-Modell "Kano-Modell") beschreibt den Zusammenhang zwischen dem Erreichen bestimmter Eigenschaften eines Produktes und der erwarteten Kundenzufriedenheit.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Kano_Modell_allgemein.svg/1200px-Kano_Modell_allgemein.svg.png)
+![Kano-Modell Diagramm](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Kano_Modell_allgemein.svg/1200px-Kano_Modell_allgemein.svg.png)
 
 Quelle: [Wikipedia Kano-Modell](https://de.wikipedia.org/wiki/Kano-Modell#/media/Datei:Kano_Modell_allgemein.svg "Wikipedia Kano-Modell")
 

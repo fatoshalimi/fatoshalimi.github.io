@@ -21,13 +21,13 @@ Google Colab is a cloud-based tool for writing and running code—think Google D
 1. **Create a Google Colab Notebook**  
    Open [Google Colab](https://colab.research.google.com/#create=true) to start a new notebook. You can also go to Google Drive, right-click, select “More,” and choose Google Colaboratory.
 
-   ![](/images/Google_Drive_Collab.png)  
+   ![Creating a notebook in Google Drive](/images/Google_Drive_Collab.png)
    The notebook will be named "Untitled.ipynb" by default.
 
 2. **Enable GPU**  
    Next, enable the GPU in Colab for faster processing. Go to “Runtime” > “Change runtime type,” select “GPU” under Hardware Accelerator, and save.
 
-   ![](/images/Google_Collab_Runtime.png)![](/images/Google_Collab_GPU.png)
+   ![Open runtime settings](/images/Google_Collab_Runtime.png)![Select GPU option](/images/Google_Collab_GPU.png)
 
 3. **Install Whisper**  
    In a new code cell, paste the following lines and run them using the play button (or with `CTRL + Enter`):
@@ -37,7 +37,7 @@ Google Colab is a cloud-based tool for writing and running code—think Google D
    !sudo apt update && sudo apt install ffmpeg
    ```
 
-   ![](/images/Google_Collab_whisper_install.png)  
+   ![Installing Whisper packages](/images/Google_Collab_whisper_install.png)
    This installs Whisper in the notebook. (For further setup options, see [Whisper’s GitHub setup page](https://github.com/openai/whisper#setup).)
 
    > The `!` symbol at the start of each line indicates that these commands are shell scripts, not Python code. If you’re running Whisper on your own computer, you can omit the `!`.
@@ -45,7 +45,7 @@ Google Colab is a cloud-based tool for writing and running code—think Google D
 4. **Upload Audio File**  
    To transcribe audio, upload it to Google Colab. You can drag and drop the file into the Colab file explorer or use the upload button.
 
-   ![](/images/Google_Collab_File_Upload.png)
+   ![Uploading audio file](/images/Google_Collab_File_Upload.png)
 
 5. **Transcribe with Whisper**  
    Add a second code cell, click “+ Code,” and paste the following:
@@ -56,7 +56,7 @@ Google Colab is a cloud-based tool for writing and running code—think Google D
 
    Hit the play button (or `CTRL + Enter`) to run the code. Here, I used the Medium model with German as the language parameter. The transcribed files will appear in the file explorer once the transcription is complete.
 
-   ![](/images/Google_Collab_whisper.png)
+   ![Whisper transcription output](/images/Google_Collab_whisper.png)
 
 ### Whisper Models
 

@@ -17,7 +17,7 @@ According to the [IREB Glossary](https://www.ireb.org/en/cpre/cpre-glossary/), a
 
 Each time requirements are gathered, misunderstandings can happen. One side describes something; the other side interprets it differently.
 
-![](/images/image-axd.png)  
+![Cartoon showing miscommunication](/images/image-axd.png)
 _Source: [Project Cartoon](http://www.projectcartoon.com)_
 
 ### 📣 Communication
@@ -40,7 +40,7 @@ This exaggerated exchange highlights a common issue: fast-paced development ofte
 
 The effects of requirements engineering are indirect and hard to measure. Without it, costs from errors and rework escalate, impacting the overall budget.
 
-![](/images/frame-1-4.png)  
+![Graph of error and RE costs](/images/frame-1-4.png)
 _This graphic shows the relationship between error costs, requirements engineering costs, and total costs._
 
 ### 👍 Assumptions
