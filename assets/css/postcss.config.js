@@ -5,9 +5,7 @@ module.exports = async () => ({
     require("postcss-import")({
       path: [themeDir],
     }),
-    (
-      await import("@tailwindcss/postcss")
-    ).default({ config: themeDir + "assets/css/tailwind.config.cjs" }),
+    (await import("tailwindcss")).default(themeDir + "assets/css/tailwind.config.cjs"),
     require("autoprefixer")({
       path: [themeDir],
     }),

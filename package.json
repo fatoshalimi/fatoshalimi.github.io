@@ -13,7 +13,6 @@
     "build": "NODE_ENV=production hugo --gc"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.33",
