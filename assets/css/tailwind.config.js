@@ -96,5 +96,10 @@ module.exports = {
       }),
     },
   },
+  variants: {
+    extend: {
+      typography: ["dark"],
+    },
+  },
   plugins: [require("@tailwindcss/typography")],
 };

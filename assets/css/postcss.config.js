@@ -1,13 +1,13 @@
 const themeDir = __dirname + "/../../";
 
-module.exports = async () => ({
+module.exports = {
   plugins: [
     require("postcss-import")({
       path: [themeDir],
     }),
-    (await import("tailwindcss")).default(themeDir + "assets/css/tailwind.config.cjs"),
+    require("tailwindcss")(themeDir + "assets/css/tailwind.config.js"),
     require("autoprefixer")({
       path: [themeDir],
     }),
   ],
-});
+};
