@@ -1,5 +1,7 @@
 // Credits to search implementation: https://gist.github.com/cmod/5410eae147e4318164258742dd053993
 
+import Fuse from "fuse.js";
+
 var fuse; // holds our search engine
 var searchVisible = false;
 var firstRun = true; // allow us to delay loading json data unless search activated

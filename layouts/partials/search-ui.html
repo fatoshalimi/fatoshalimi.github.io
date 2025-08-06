@@ -28,8 +28,5 @@
   </div>
 </div>
 
-{{ $fuse := resources.Get "js/fuse.min.js" }}
-{{ $search := resources.Get "js/search.js" }}
-
-{{ $concatjs := slice $fuse $search | resources.Concat "js/scripts.js" | resources.Minify }}
-<script src="{{ $concatjs.Permalink }}"></script>
+{{ $search := resources.Get "js/search.js" | js.Build | resources.Minify }}
+<script src="{{ $search.Permalink }}" defer></script>
