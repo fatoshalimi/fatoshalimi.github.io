@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.148.2
+      HUGO_VERSION: 0.134.2
     steps:
       - name: Install Hugo CLI
         run: |
@@ -37,13 +37,11 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: '22'
+          node-version: '20'
       - name: Install Node.js dependencies
-        run: npm ci
-      - name: Audit dependencies
-        run: npm audit --audit-level=high
+        run: npm install
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
