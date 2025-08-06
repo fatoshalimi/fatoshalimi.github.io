@@ -11,8 +11,7 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "EN"
     [languages.en.params]
-      introTitle = "Hi, I am Fatos Halimi!"
-      introSubtitle = "<p>As a <strong>Product Owner</strong>, I combine my <strong>passion for technology</strong> with my background in <strong>Software Engineering</strong> and <strong>Business Informatics</strong>. With extensive experience in <strong>agile project management</strong>, I work closely with product managers, designers, developers, and other stakeholders to create <strong>innovative solutions</strong> that truly make a difference.</p><br><p>I focus on <strong>leading agile teams</strong>, prioritizing product backlogs based on business value, and delivering high-quality MVPs. I value <strong>collaboration</strong>, effective <strong>problem-solving</strong>, and <strong>data-driven decisions</strong> to turn complex challenges into <strong>user-friendly products</strong>. With a <strong>master's degree</strong> in Business Informatics and specializations in <strong>IT Innovation Management</strong>, <strong>Big Data</strong>, and <strong>Machine Learning</strong>, I'm constantly learning and working on new ideas.</p><br><p>Outside of work, I'm interested in <strong>productivity</strong>, <strong>personal finance</strong>, and the latest <strong>IT trends</strong>.</p><br><p>📫 <strong>If you have any questions or are interested in collaboration, I look forward to hearing from you!</strong></p>"
+      description = "Product Owner and Software Engineer sharing insights on technology and agile development."
       introPhoto = "/memoji.png"
       logo = "/favicon.png"
       impressum = "/en/page/imprint"
@@ -48,9 +47,7 @@ DefaultContentLanguageInSubdir = true
     languageName = "DE"
     title = "Fatos Halimi"
     [languages.de.params]
-      description = ""
-      introTitle = "Hi, Ich bin Fatos Halimi!"
-      introSubtitle = "<p>Als <strong>Product Owner</strong> verbinde ich meine <strong>Leidenschaft für Technologie</strong> mit meinem Hintergrund in <strong>Software Engineering</strong> und <strong>Wirtschaftsinformatik</strong>. Mit viel Erfahrung im <strong>agilen Projektmanagement</strong> arbeite ich eng mit Produktmanagern, Designern, Entwicklern und anderen Stakeholdern zusammen, um <strong>innovative Lösungen</strong> zu schaffen, die wirklich etwas bewirken.</p><br><p>Ich konzentriere mich darauf, <strong>agile Teams zu leiten</strong>, Produkt-Backlogs nach Geschäftswert zu priorisieren und qualitativ hochwertige MVPs zu liefern. Mir sind <strong>Zusammenarbeit</strong>, effektive <strong>Problemlösung</strong> und <strong>datenbasierte Entscheidungen</strong> wichtig, um komplexe Herausforderungen in <strong>benutzerfreundliche Produkte</strong> zu verwandeln. Mit einem <strong>Master</strong> in Wirtschaftsinformatik und Spezialisierungen in <strong>IT-Innovationsmanagement</strong>, <strong>Big Data</strong> und <strong>Machine Learning</strong> lerne ich ständig dazu und arbeite an neuen Ideen.</p><br><p>Neben der Arbeit interessiere ich mich für <strong>Produktivität</strong>, <strong>persönliche Finanzen</strong> und die neuesten <strong>IT-Trends</strong>.</p><br><p>📫 <strong>Wenn du Fragen hast oder an einer Zusammenarbeit interessiert bist, freue ich mich, von dir zu hören!</strong></p>"
+      description = "Product Owner und Software Engineer mit Fokus auf Technologie und agiles Projektmanagement."
       introPhoto = "/memoji.png"
       logo = "/favicon.png"
       impressum = "/de/page/impressum"
@@ -76,6 +73,7 @@ DefaultContentLanguageInSubdir = true
     #    weight = 3
 
 [params]
+  description = "Personal homepage of Fatos Halimi."
   # Enable the darkmode toggle in header
   darkModeToggle = true
   
