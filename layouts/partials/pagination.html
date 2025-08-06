@@ -1,3 +1,15 @@
-<div class="grid place-items-center mb-8">
-  {{ template "_internal/pagination.html" . }}
-</div>
+<nav class="pagination">
+  {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}" class="page-item page-link">Previous</a>
+  {{ end }}
+
+  {{ range .Paginator.Pagers }}
+    <span class="page-item {{ if eq .URL $.Paginator.URL }}active{{ end }}">
+      <a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a>
+    </span>
+  {{ end }}
+
+  {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}" class="page-item page-link">Next</a>
+  {{ end }}
+</nav>
