@@ -1,3 +1,10 @@
+---
+title: Imprint & Privacy Policy
+description: "Imprint and privacy policy of Fatos Halimi in accordance with GDPR, ECG, and MedienG."
+date: 2024-10-01
+lastmod: 2026-03-13
+draft: false
+---
 
 ## **Imprint**
 
@@ -97,9 +104,17 @@ Our website contains links to external websites, particularly to our profiles on
 
 Our website uses **no cookies**.
 
+### **Your Rights**
+
+Since this website has no user accounts, no comment section, and no contact forms, we ourselves collect virtually no personal data. Server-side logs are managed exclusively by GitHub Pages — we have no access to them.
+
+If you have any questions regarding data processing or wish to exercise your rights under the GDPR (e.g. access, deletion, objection), please contact us directly: {{< cloakemail "contact@fatoshalimi.com" >}}
+
+For complaints, the competent authority is the Austrian **Data Protection Authority (DSB)**: [dsb.gv.at](https://www.dsb.gv.at)
+
 ### **Validity and Changes to this Privacy Policy**
 
-This privacy policy is currently valid and has the status of October 2024. Due to the further development of our website or due to changed legal requirements, it may become necessary to adjust this privacy policy.
+This privacy policy is currently valid and has the status of March 2026. Due to the further development of our website or due to changed legal requirements, it may become necessary to adjust this privacy policy.
 
 ### **Contact**
 

@@ -1,3 +1,11 @@
+---
+title: Impressum & Datenschutz
+description: "Impressum und Datenschutzerklärung von Fatos Halimi gemäß DSGVO, ECG und MedienG."
+date: 2024-10-01
+lastmod: 2026-03-13
+draft: false
+---
+
 ## **Impressum**
 
 *Angaben gemäß § 5 ECG und Offenlegungspflicht nach § 25 MedienG.*
@@ -96,9 +104,17 @@ Unsere Website enthält Links zu externen Websites, insbesondere zu unseren Prof
 
 Unsere Website verwendet **keine Cookies**.
 
+### **Ihre Rechte**
+
+Da diese Website keine Nutzerkonten, keine Kommentarfunktion und keine Formulare besitzt, werden von uns selbst so gut wie keine personenbezogenen Daten erhoben. Serverseitige Logs werden ausschließlich von GitHub Pages verwaltet – auf diese haben wir keinen Zugriff.
+
+Sollten Sie dennoch Fragen zur Datenverarbeitung haben oder Ihre Betroffenenrechte gemäß DSGVO (z.B. Auskunft, Löschung, Widerspruch) geltend machen wollen, wenden Sie sich bitte direkt an uns: {{< cloakemail "contact@fatoshalimi.com" >}}
+
+Für Beschwerden ist die österreichische **Datenschutzbehörde (DSB)** zuständig: [dsb.gv.at](https://www.dsb.gv.at)
+
 ### **Aktualität und Änderung dieser Datenschutzerklärung**
 
-Diese Datenschutzerklärung ist aktuell gültig und hat den Stand vom Oktober 2024. Durch die Weiterentwicklung unserer Website oder aufgrund geänderter gesetzlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung anzupassen.
+Diese Datenschutzerklärung ist aktuell gültig und hat den Stand vom März 2026. Durch die Weiterentwicklung unserer Website oder aufgrund geänderter gesetzlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung anzupassen.
 
 ### **Kontakt**
 
