@@ -1,8 +1,8 @@
 ---
 author: Fatos Halimi
-title: 5 Tipps for better Meetings
+title: 5 Tips for Better Meetings
 date: 2021-08-23
-description: 
+description: "Five practical tips to make your meetings more effective, focused, and respectful of everyone's time — whether in-person or virtual."
 tags: ["Productivity", "IT"]
 thumbnail: /images/campaign-creators-gmsnxqiljp4-unsplash-768x512.jpg
 ---

@@ -2,8 +2,8 @@
 author = "Fatos Halimi"
 categories = []
 date = 2022-09-28T00:00:00Z
-description = ""
-tags = ["openai", " whisper", "Interview Transcription"]
+description = "A step-by-step guide to using OpenAI's Whisper speech-to-text model for free audio transcription via Google Colab — no local GPU required."
+tags = ["openai", "whisper", "Interview Transcription"]
 thumbnail = "/images/hitesh-choudhary-t1paibmtjim-unsplash.jpg"
 title = "Free Speech-to-Text AI Tool for Transcription Using Google Colab"
 +++

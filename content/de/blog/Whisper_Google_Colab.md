@@ -2,11 +2,10 @@
 author = "Fatos Halimi"
 categories = []
 date = 2022-09-28T00:00:00Z
-description = ""
-tags = ["openai", " whisper", "interview transkribieren"]
+description = "Schritt-für-Schritt-Anleitung zur kostenlosen Audio-Transkription mit OpenAIs Whisper-Modell über Google Colab – ohne lokale GPU."
+tags = ["openai", "whisper", "interview transkribieren"]
 thumbnail = "/images/hitesh-choudhary-t1paibmtjim-unsplash.jpg"
 title = "Kostenloses Speech-To-Text AI Tool für Transkribieren mit Google Colab"
-
 +++
 [Whisper](https://github.com/openai/whisper "https://github.com/openai/whisper") ist ein System zur automatischen Spracherkennung ASR) von [OpenAI](https://openai.com/blog/whisper/ "https://openai.com/blog/whisper/"), dass in 680000 Stunden an überwachten Daten aus dem Internet trainiert und kostenlos in [Github](https://github.com/openai/whisper "https://github.com/openai/whisper") zur Verfügung gestellt.
 

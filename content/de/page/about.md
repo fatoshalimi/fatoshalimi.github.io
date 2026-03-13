@@ -2,8 +2,8 @@
 author: Fatos Halimi
 title: Über mich
 date: 2021-07-15
-description:
-keywords: ["about-us", "about-hugo", "contact"]
+description: "Fatos Halimi ist Product Owner bei Drei Österreich mit einem Hintergrund in Software Engineering und Wirtschaftsinformatik – leidenschaftlich in agiler Produktentwicklung und Technologie."
+keywords: ["Fatos Halimi", "Product Owner", "Drei Österreich", "agil", "Software Engineering", "Wirtschaftsinformatik"]
 type: about
 ---
 

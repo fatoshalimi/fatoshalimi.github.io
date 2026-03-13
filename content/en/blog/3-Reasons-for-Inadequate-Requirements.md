@@ -2,7 +2,7 @@
 author: Fatos Halimi
 title: 3 Reasons for Inadequate Requirements
 date: 2021-03-04
-description: 
+description: "Discover three common root causes of inadequate requirements in software projects: communication gaps, time and budget pressure, and unclear stakeholder boundaries."
 tags:
 - Productivity
 - IT

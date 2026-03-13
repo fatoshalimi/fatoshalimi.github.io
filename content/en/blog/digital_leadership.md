@@ -2,10 +2,10 @@
 author = "Fatos Halimi"
 categories = ["Productivity"]
 date = 2021-10-08T00:00:00Z
-description = ""
+description = "Learn key digital leadership practices to reduce Zoom fatigue, run effective online meetings, and build trust within remote teams."
 tags = ["Productivity", "Management"]
 thumbnail = "/images/quino-al-dhgflj3ri0q-unsplash.jpg"
-title = " Digital Leadership"
+title = "Digital Leadership"
 +++
 
 After more than a year of virtual meetings and online sessions, many find these interactions more mentally draining than in-person meetings. To minimize "Zoom Fatigue," effective digital leadership skills are essential. So, what does digital leadership involve, and how can you improve?

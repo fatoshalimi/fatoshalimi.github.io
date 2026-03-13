@@ -2,8 +2,8 @@
 author: Fatos Halimi
 title: About Me
 date: 2021-07-15
-description:
-keywords: ["about-us", "about-hugo", "contact"]
+description: "Fatos Halimi is a Product Owner at Drei Austria with a background in Software Engineering and Business Informatics, passionate about agile product development and technology."
+keywords: ["Fatos Halimi", "Product Owner", "Drei Austria", "agile", "software engineering", "business informatics"]
 type: about
 ---
 

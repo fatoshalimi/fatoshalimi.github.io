@@ -2,7 +2,7 @@
 author: Fatos Halimi
 title: 3 Gründe für mangelhafte Requirements
 date: 2021-03-04
-description: 
+description: "Drei häufige Ursachen für mangelhafte Requirements in Softwareprojekten: Kommunikationsprobleme, Zeit- und Budgetdruck sowie unklare Stakeholder-Grenzen."
 tags:
 - Produktivität
 - IT

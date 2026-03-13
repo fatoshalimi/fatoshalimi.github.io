@@ -2,7 +2,7 @@
 author = "Fatos Halimi"
 categories = ["Produktivität"]
 date = 2021-10-08T00:00:00Z
-description = ""
+description = "Wichtige Fähigkeiten für digitale Führung: Zoom Fatigue reduzieren, Online-Meetings effektiv moderieren und Vertrauen in Remote-Teams aufbauen."
 tags = ["Produktivität", "Management"]
 thumbnail = "/images/quino-al-dhgflj3ri0q-unsplash.jpg"
 title = "Digitales Führen"
