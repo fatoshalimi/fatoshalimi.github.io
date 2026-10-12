@@ -25,5 +25,8 @@
     "> 1%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "overrides": {
+    "postcss-selector-parser": "^7.1.6"
+  }
 }
